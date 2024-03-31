@@ -1,0 +1,14 @@
+#----------------------------------------------------------------------------
+# ObjectComponents
+# (C) Copyright 1994, 1996 by Borland International, All Rights Reserved
+#----------------------------------------------------------------------------
+!if !$d(MODEL)
+MODEL = l
+!endif
+EXERES = guidgen
+USERLIBS = $(BCROOT)\LIB\ole2w16
+
+!include $(BCEXAMPLEDIR)\makefile.gen
+
+
+

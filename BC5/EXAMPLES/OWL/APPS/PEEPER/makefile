@@ -1,0 +1,8 @@
+#----------------------------------------------------------------------------
+# ObjectWindows - (C) Copyright 1991, 1996 by Borland International
+#----------------------------------------------------------------------------
+
+EXERES=peeper
+MODELS=ldf
+!include $(BCEXAMPLEDIR)\owlmake.gen
+

@@ -1,0 +1,10 @@
+#----------------------------------------------------------------------------
+# ObjectWindows
+# Copyright (c) 1993, 1996 by Borland International, All Rights Reserved
+#----------------------------------------------------------------------------
+
+EXE   =owlcmd
+MODELS=ldft
+
+!include $(BCEXAMPLEDIR)\owlmake.gen
+

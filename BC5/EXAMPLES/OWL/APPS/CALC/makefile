@@ -1,0 +1,8 @@
+#----------------------------------------------------------------------------
+# ObjectWindows
+# Copyright (c) 1991, 1996 by Borland International, All Rights Reserved
+#----------------------------------------------------------------------------
+
+MODELS = ldf
+EXERES=calc
+!include $(BCEXAMPLEDIR)\owlmake.gen

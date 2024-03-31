@@ -1,0 +1,14 @@
+[autoexec]
+@ECHO OFF
+MOUNT C: "C:\Program Files (x86)\GUI Turbo Assembler\BIN"
+MOUNT D: "C:\Users\WDAGUtilityAccount\Desktop\TribesRebirth"
+PATH=Z:\;C:\
+D:
+CLS
+
+C:\bc5\bin\bcc32.exe    
+ECHO.
+ECHO.
+ECHO Press any key to exit...
+PAUSE >nul
+EXIT

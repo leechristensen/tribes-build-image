@@ -1,0 +1,10 @@
+#----------------------------------------------------------------------------
+# ObjectWindows - (C) Copyright 1995 by Borland International
+#----------------------------------------------------------------------------
+
+MODELS=fd
+SYSTEM=WIN32
+EXERES=drawstat
+!include $(BCEXAMPLEDIR)\owlmake.gen
+
+

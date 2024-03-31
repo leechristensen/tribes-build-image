@@ -1,0 +1,10 @@
+#----------------------------------------------------------------------------
+# ObjectWindows
+# Copyright (c) 1993, 1996 by Borland International, All Rights Reserved
+#
+# $Revision:   10.4  $
+#----------------------------------------------------------------------------
+
+EXERES = modalwin
+
+!include $(BCEXAMPLEDIR)\owlmake.gen

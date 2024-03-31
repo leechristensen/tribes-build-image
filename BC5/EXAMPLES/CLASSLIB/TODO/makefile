@@ -1,0 +1,27 @@
+#--------------------------------------------------------------------------#
+#                                                                          #
+#   MAKEFILE for Todo Example                                              #
+#                                                                          #
+#   Copyright (c) Borland International 1993                               #
+#   All Rights Reserved                                                    #
+#                                                                          #
+#   Usage:                                                                 #
+#                                                                          #
+#       make                                                               #
+#                                                                          #
+#--------------------------------------------------------------------------#
+
+EXE     = todo
+MODELS  = mldft
+SYSTEMS = WIN32 WIN16
+RESEXE  = todowin.res
+OBJEXE  = todowin.obj todolist.obj tododlgs.obj
+
+# Building the FLAT version of this sample, requires GUI
+#
+!if "$(MODEL)" == "f"
+SYSTEM=WIN32
+!endif
+
+!include $(BCEXAMPLEDIR)\bidsmake.gen
+
